@@ -1,0 +1,157 @@
+{
+  "dimensions": {
+    "G1": {
+      "name": "流量起量分析",
+      "category": "通用",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["SimilarWeb免费版", "Google Trends", "Wayback Machine"],
+      "platform_tools": ["SEMrush API", "Ahrefs API", "SimilarWeb API"]
+    },
+    "G2": {
+      "name": "品牌新品动向",
+      "category": "通用",
+      "incremental": true,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "Wayback Machine", "社媒监控"],
+      "platform_tools": ["官网爬虫", "新闻API", "社媒API"]
+    },
+    "G3": {
+      "name": "社媒数据分析",
+      "category": "通用",
+      "incremental": true,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["社媒爬虫", "Social Blade", "手动统计"],
+      "platform_tools": ["社媒API", "爬虫补充", "第三方分析工具"]
+    },
+    "G4": {
+      "name": "红人合作分析",
+      "category": "通用",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["Instagram爬虫", "品牌标签搜索", "红人数据库免费版"],
+      "platform_tools": ["社媒API", "红人营销平台", "品牌监测工具"]
+    },
+    "G5": {
+      "name": "UGC舆情分析",
+      "category": "通用",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["Reddit API", "Google Search", "品牌社群"],
+      "platform_tools": ["Reddit API", "G2 API", "情感分析API"]
+    },
+    "G6": {
+      "name": "PR稿件分析",
+      "category": "通用",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["Google Search", "新闻网站RSS", "官网新闻页面"],
+      "platform_tools": ["Google Custom Search API", "新闻API", "品牌监测工具"]
+    },
+    "G7": {
+      "name": "广告投放分析",
+      "category": "通用",
+      "incremental": true,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["Meta Ad Library", "Google Ads Transparency", "手动搜索"],
+      "platform_tools": ["Meta Ad Library API", "广告监测工具", "竞品广告分析平台"]
+    },
+    "S1": {
+      "name": "功能对比分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "产品手册", "免费试用"],
+      "platform_tools": ["官网爬虫", "G2 API", "产品分析平台"]
+    },
+    "S2": {
+      "name": "技术维度分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": false,
+      "deep": true,
+      "self_use_tools": ["BuiltWith", "Wappalyzer", "手动分析"],
+      "platform_tools": ["BuiltWith API", "技术监测工具"]
+    },
+    "S3": {
+      "name": "用户体验分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "Reddit", "免费试用"],
+      "platform_tools": ["G2 API", "爬虫补充", "用户反馈平台"]
+    },
+    "S4": {
+      "name": "商业模式分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网定价页面", "产品文档", "用户评价"],
+      "platform_tools": ["官网爬虫", "付费数据平台", "用户评价API"]
+    },
+    "S5": {
+      "name": "生态集成分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": false,
+      "deep": true,
+      "self_use_tools": ["官网集成页面", "应用市场", "文档"],
+      "platform_tools": ["官网爬虫", "集成平台API"]
+    },
+    "S6": {
+      "name": "发展历程分析",
+      "category": "SaaS",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["Crunchbase", "官网关于页面", "新闻搜索"],
+      "platform_tools": ["Crunchbase API", "新闻API", "公司数据库"]
+    },
+    "B1": {
+      "name": "产品矩阵分析",
+      "category": "品牌",
+      "incremental": true,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "电商平台", "产品目录"],
+      "platform_tools": ["官网爬虫", "电商API", "产品数据库"]
+    },
+    "B2": {
+      "name": "渠道布局分析",
+      "category": "品牌",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "SimilarWeb", "电商平台"],
+      "platform_tools": ["SimilarWeb API", "渠道监测工具"]
+    },
+    "B3": {
+      "name": "品牌定位分析",
+      "category": "品牌",
+      "incremental": false,
+      "light": true,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "社媒分析", "用户反馈"],
+      "platform_tools": ["品牌监测工具", "社媒API", "用户调研平台"]
+    },
+    "B4": {
+      "name": "供应链分析",
+      "category": "品牌",
+      "incremental": false,
+      "light": false,
+      "deep": true,
+      "self_use_tools": ["官网爬虫", "行业报告", "公开信息"],
+      "platform_tools": ["供应链数据库", "行业分析平台"]
+    }
+  }
+}
