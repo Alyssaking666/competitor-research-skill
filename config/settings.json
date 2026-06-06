@@ -1,0 +1,25 @@
+{
+  "mode": "self_use",
+  "database": {
+    "path": "storage/database.sqlite"
+  },
+  "scrapers": {
+    "request_delay": 2,
+    "max_retries": 3,
+    "timeout": 10,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "report": {
+    "output_dir": "reports/output",
+    "template_dir": "reports/templates"
+  },
+  "schedule": {
+    "incremental_frequency": "weekly",
+    "light_frequency": "monthly",
+    "deep_frequency": "quarterly"
+  },
+  "validation": {
+    "min_confidence_threshold": "中",
+    "max_data_age_days": 7
+  }
+}
