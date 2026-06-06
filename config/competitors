@@ -1,0 +1,23 @@
+{
+  "competitors": [
+    {
+      "name": "HubSpot",
+      "website": "https://www.hubspot.com",
+      "industry": "saas",
+      "social_accounts": {
+        "twitter": "hubspot",
+        "linkedin": "hubspot",
+        "instagram": "hubspot"
+      }
+    },
+    {
+      "name": "Zoho",
+      "website": "https://www.zoho.com",
+      "industry": "saas",
+      "social_accounts": {
+        "twitter": "zoho",
+        "linkedin": "zoho"
+      }
+    }
+  ]
+}
